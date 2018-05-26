@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="tags," />
 
 
 
@@ -79,16 +79,18 @@
 
 
 
-<meta name="description" content="学习日记">
-<meta property="og:type" content="website">
-<meta property="og:title" content="小孩">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="1.首先进入本机的源文件目录cd /usr/local/src2.使用wget下载官方yum源的rpm包wget http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm3.安装rpm包rpm -ivh mysql57-community-release-el7-8.noarch.rpm4.再次使用yum来安装MySQL-se">
+<meta name="keywords" content="tags">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mysql安装]">
+<meta property="og:url" content="http://yoursite.com/2018/05/26/mysql安装/index.html">
 <meta property="og:site_name" content="小孩">
-<meta property="og:description" content="学习日记">
+<meta property="og:description" content="1.首先进入本机的源文件目录cd /usr/local/src2.使用wget下载官方yum源的rpm包wget http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm3.安装rpm包rpm -ivh mysql57-community-release-el7-8.noarch.rpm4.再次使用yum来安装MySQL-se">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-05-26T09:43:40.535Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小孩">
-<meta name="twitter:description" content="学习日记">
+<meta name="twitter:title" content="mysql安装]">
+<meta name="twitter:description" content="1.首先进入本机的源文件目录cd /usr/local/src2.使用wget下载官方yum源的rpm包wget http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm3.安装rpm包rpm -ivh mysql57-community-release-el7-8.noarch.rpm4.再次使用yum来安装MySQL-se">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/26/mysql安装/"/>
 
 
 
 
 
-  <title>小孩</title>
+  <title>mysql安装] | 小孩</title>
   
 
 
@@ -143,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -257,9 +258,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -289,9 +290,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/26/mysql安装/" itemprop="url">mysql安装]</a></h1>
+          <h1 class="post-title" itemprop="name headline">mysql安装]</h1>
         
 
         <div class="post-meta">
@@ -363,9 +362,7 @@
       
 
       
-        
-          
-            <p>1.首先进入本机的源文件目录<br>cd /usr/local/src<br>2.使用wget下载官方yum源的rpm包<br>wget <a href="http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm" target="_blank" rel="noopener">http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm</a><br>3.安装rpm包<br>rpm -ivh mysql57-community-release-el7-8.noarch.rpm<br>4.再次使用yum来安装MySQL-server<br>yum install -y mysql-server</p>
+        <p>1.首先进入本机的源文件目录<br>cd /usr/local/src<br>2.使用wget下载官方yum源的rpm包<br>wget <a href="http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm" target="_blank" rel="noopener">http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm</a><br>3.安装rpm包<br>rpm -ivh mysql57-community-release-el7-8.noarch.rpm<br>4.再次使用yum来安装MySQL-server<br>yum install -y mysql-server</p>
 <p>默认配置文件路径：<br>配置文件：/etc/my.cnf<br>日志文件：/var/log/var/log/mysqld.log<br>服务启动脚本：/usr/lib/systemd/system/mysqld.service<br>socket文件：/var/run/mysqld/mysqld.pid</p>
 <p>5.配置my.cnf        vim/ect/my.cnf<br>[mysqld]  </p>
 <h1 id=""><a href="#" class="headerlink" title=" "></a> </h1><h1 id="Remove-leading-and-set-to-the-amount-of-RAM-for-the-most-important-data"><a href="#Remove-leading-and-set-to-the-amount-of-RAM-for-the-most-important-data" class="headerlink" title="Remove leading # and set to the amount of RAM for the most important data"></a>Remove leading # and set to the amount of RAM for the most important data</h1><h1 id="cache-in-MySQL-Start-at-70-of-total-RAM-for-dedicated-server-else-10"><a href="#cache-in-MySQL-Start-at-70-of-total-RAM-for-dedicated-server-else-10" class="headerlink" title="cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%."></a>cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.</h1><h1 id="innodb-buffer-pool-size-128M"><a href="#innodb-buffer-pool-size-128M" class="headerlink" title="innodb_buffer_pool_size = 128M"></a>innodb_buffer_pool_size = 128M</h1><h1 id="-1"><a href="#-1" class="headerlink" title=" "></a> </h1><h1 id="Remove-leading-to-turn-on-a-very-important-data-integrity-option-logging"><a href="#Remove-leading-to-turn-on-a-very-important-data-integrity-option-logging" class="headerlink" title="Remove leading # to turn on a very important data integrity option: logging"></a>Remove leading # to turn on a very important data integrity option: logging</h1><h1 id="changes-to-the-binary-log-between-backups"><a href="#changes-to-the-binary-log-between-backups" class="headerlink" title="changes to the binary log between backups."></a>changes to the binary log between backups.</h1><h1 id="log-bin"><a href="#log-bin" class="headerlink" title="log_bin"></a>log_bin</h1><h1 id="-2"><a href="#-2" class="headerlink" title=" "></a> </h1><h1 id="Remove-leading-to-set-options-mainly-useful-for-reporting-servers"><a href="#Remove-leading-to-set-options-mainly-useful-for-reporting-servers" class="headerlink" title="Remove leading # to set options mainly useful for reporting servers."></a>Remove leading # to set options mainly useful for reporting servers.</h1><h1 id="The-server-defaults-are-faster-for-transactions-and-fast-SELECTs"><a href="#The-server-defaults-are-faster-for-transactions-and-fast-SELECTs" class="headerlink" title="The server defaults are faster for transactions and fast SELECTs."></a>The server defaults are faster for transactions and fast SELECTs.</h1><h1 id="Adjust-sizes-as-needed-experiment-to-find-the-optimal-values"><a href="#Adjust-sizes-as-needed-experiment-to-find-the-optimal-values" class="headerlink" title="Adjust sizes as needed, experiment to find the optimal values."></a>Adjust sizes as needed, experiment to find the optimal values.</h1><h1 id="join-buffer-size-128M"><a href="#join-buffer-size-128M" class="headerlink" title="join_buffer_size = 128M"></a>join_buffer_size = 128M</h1><h1 id="sort-buffer-size-2M"><a href="#sort-buffer-size-2M" class="headerlink" title="sort_buffer_size = 2M"></a>sort_buffer_size = 2M</h1><h1 id="read-rnd-buffer-size-2M"><a href="#read-rnd-buffer-size-2M" class="headerlink" title="read_rnd_buffer_size = 2M"></a>read_rnd_buffer_size = 2M</h1><p>datadir=/var/lib/mysql<br>socket=/var/lib/mysql/mysql.sock<br>server_id = 1<br>expire_logs_days = 3  </p>
@@ -411,8 +408,6 @@
 <p>刷新权限<br>mysql&gt; FLUSH PRIVILEGES;<br>Query OK, 0 rows affected (0.00 sec)</p>
 <p>退出数据库<br>mysql&gt; exit<br>Bye<br>数据库启动<br>[root@izldsnrx3imo6iz src]# systemctl start mysqld<br>[root@izldsnrx3imo6iz src]# systemctl enable mysqld<br>查看是否启动成功<br>[root@izldsnrx3imo6iz src]# ps aux|grep mysqld<br>mysql     1326  0.0 18.1 1119672 184560 ?      Sl   13:33   0:01 /usr/sbin/mysqld –daemonize –pid-file=/var/run/mysqld/mysqld.pid<br>root      1437  0.0  0.0 112660   972 pts/0    R+   14:20   0:00 grep –color=auto mysqld</p>
 
-          
-        
       
     </div>
     
@@ -427,314 +422,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/26/Git/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ccommade">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小孩">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/26/Git/" itemprop="url">[Git]</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-26T15:39:21+08:00">
-                2018-05-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Git教程/" itemprop="url" rel="index">
-                    <span itemprop="name">Git教程</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/tags/" rel="tag"># tags</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="学习笔记之Git篇"><a href="#学习笔记之Git篇" class="headerlink" title="学习笔记之Git篇:"></a>学习笔记之Git篇:</h3><h5 id="1-安装Git："><a href="#1-安装Git：" class="headerlink" title="1. 安装Git："></a>1. 安装Git：</h5><ul>
-<li>这个其实挺简单的在Git官网上下载对应版本的Git Windows软件 点击安装 全部都是默认选项一直到安装完成。<h5 id="2-准备Git的初始化："><a href="#2-准备Git的初始化：" class="headerlink" title="2. 准备Git的初始化："></a>2. 准备Git的初始化：</h5></li>
-</ul>
-<ol>
-<li>首先通过下面的的命令查看Git的版本信息<ul>
-<li><code>git -version</code></li>
-</ul>
-</li>
-<li>配置姓名 邮箱账号，因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址 <ul>
-<li><code>git config --global user.name &quot;511717out&quot;</code></li>
-<li><code>git config --global user.email 
- &quot;511717123@qq.com&quot;</code></li>
-<li>注意<code>git config</code>命令的–<code>global</code>参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，<strong>当然也可以对某个仓库指定不同的用户名和Email地址</strong>(这个命令我没用过)<br>也可以开启颜色显示</li>
-<li><code>git config --global color.ui true</code><h5 id="3-创建仓库，就是版本库，英文名repository，可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以还原"><a href="#3-创建仓库，就是版本库，英文名repository，可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以还原" class="headerlink" title="3. 创建仓库，就是版本库，英文名repository，可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以还原"></a>3. 创建仓库，就是版本库，英文名repository，可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以还原</h5></li>
-</ul>
-<ol>
-<li>选择一个合适的地方，创建一个空目录 随便一个哪个盘都可以 目录名字最好不要使用中文</li>
-</ol>
-<ul>
-<li><code>mkdir e:/Pytnon</code>创建目录</li>
-<li><code>cd c:/Python</code>进入这个目录</li>
-<li><code>pwd</code>显示Python这个目录并进入这个目录</li>
-</ul>
-<ol>
-<li>通过<code>git init</code>这个命令把这个目录变成Git可以管理的创库</li>
-</ol>
-<ul>
-<li><code>git init</code></li>
-<li>目录下多了一个.git的目录，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了</li>
-</ul>
-<ol>
-<li>在Python目录下创建一个文件并提交到暂存区</li>
-<li>添加指定文件到暂存区<ul>
-<li><code>git add 文件名</code></li>
-</ul>
-</li>
-<li>添加指定目录到暂存区<ul>
-<li><code>git add 目录名</code></li>
-</ul>
-</li>
-<li>添加当前目录下所有文件到暂存区<ul>
-<li><code>git add .</code>后面有一个点</li>
-</ul>
-</li>
-<li>提交暂存区到仓库</li>
-<li>提交暂存区到仓库<ul>
-<li><code>git commit -m &quot;提交说明&quot;</code></li>
-</ul>
-</li>
-<li>提交暂存区指定文件到仓库<ul>
-<li><code>git commit 文件名 -m &quot;提交说明&quot;</code><h5 id="4-添加远程仓库"><a href="#4-添加远程仓库" class="headerlink" title="4. 添加远程仓库"></a>4. 添加远程仓库</h5></li>
-</ul>
-</li>
-<li>在GitHub网站上注册一个账号</li>
-<li>使用默认的<code>Git ssh协议</code>使用ssh协议前要先在本地生成公钥(Public)和私钥(Private)</li>
-<li>检查本地是否有秘钥<ul>
-<li><code>ls -al ~/.ssh</code></li>
-</ul>
-</li>
-<li>有的话把 .ssh文件夹下id_rsa文件用文本浏览器打开把里面的内容复制到GitHub中，没有的话就生成一个新的秘钥<ul>
-<li><code>ssh-keygen -t rsa -C &quot;511717123@qq.com&quot;</code></li>
-<li>密匙位置默认 使用默认值 不设置密码</li>
-</ul>
-</li>
-<li>登陆 GitHub，打开“Account settings”，“SSH Keys”页面：然后，点“Add SSH Key”，填上任意 Title，在 Key 文本框里粘贴id_rsa.pub文件的内容</li>
-<li>在GitHub上创建一个创库 然后关联远程创库</li>
-<li>关联远程仓库<ul>
-<li><code>git remote add origin git@github.com:511717out/Python-project-library.git</code></li>
-<li>511717out账户名，Python-project-library.git仓库名</li>
-<li>添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库<h5 id="5-把本地仓库提交到远程仓库"><a href="#5-把本地仓库提交到远程仓库" class="headerlink" title="5. 把本地仓库提交到远程仓库"></a>5. 把本地仓库提交到远程仓库</h5></li>
-</ul>
-<ol>
-<li>提交timetable.md文件到暂存区<ul>
-<li><code>git add timetable.md</code></li>
-</ul>
-</li>
-<li>提交到本地仓库<ul>
-<li><code>git commit -m &quot;cmd submit timetable&quot;</code></li>
-</ul>
-</li>
-<li>提交本地master分支到远程创库  master 是默认分支<ul>
-<li><code>git push -u origin master</code><h5 id="6-和远程仓库同步"><a href="#6-和远程仓库同步" class="headerlink" title="6. 和远程仓库同步"></a>6. 和远程仓库同步</h5></li>
-</ul>
-</li>
-</ol>
-</li>
-<li>把远程Python-project-library仓库克隆到本地</li>
-</ol>
-<ul>
-<li><code>git clone git@github.com:511717out/Python-project-library.git</code></li>
-</ul>
-<ol>
-<li>下载远程仓库的所有变动</li>
-</ol>
-<ul>
-<li><code>git fetch [remote]</code></li>
-</ul>
-<ol>
-<li>显示所有远程仓库</li>
-</ol>
-<ul>
-<li><code>git remote -v</code></li>
-</ul>
-<ol>
-<li>显示某个远程仓库的信息</li>
-</ol>
-<ul>
-<li><code>git remote show [remote</code> </li>
-</ul>
-<ol>
-<li>增加一个新的远程仓库，并命名</li>
-</ol>
-<ul>
-<li><code>git remote add [名字] [url]</code></li>
-</ul>
-<ol>
-<li>取回远程仓库的变化，并与本地分支合并</li>
-</ol>
-<ul>
-<li><code>git pull [remote] [branch]</code></li>
-</ul>
-<ol>
-<li>上传本地指定分支到远程仓库</li>
-</ol>
-<ul>
-<li><code>上传本地指定分支到远程仓库</code></li>
-</ul>
-<ol>
-<li>强行推送当前分支到远程仓库，即使有冲突</li>
-</ol>
-<ul>
-<li><code>git push [remote] --force</code></li>
-</ul>
-<ol>
-<li>推送所有分支到远程仓库</li>
-</ol>
-<ul>
-<li><code>git push [remote] --all</code><h5 id="7-后悔药"><a href="#7-后悔药" class="headerlink" title="7. 后悔药"></a>7. 后悔药</h5></li>
-</ul>
-<ol>
-<li>恢复暂存区的指定文件到工作区</li>
-</ol>
-<ul>
-<li><code>git checkout [file]</code></li>
-</ul>
-<ol>
-<li>恢复某个commit的指定文件到暂存区和工作区</li>
-</ol>
-<ul>
-<li><code>git checkout [commit] [file]</code></li>
-</ul>
-<ol>
-<li>恢复暂存区的所有文件到工作区</li>
-</ol>
-<ul>
-<li><code>git checkout .</code>注意后面的点</li>
-</ul>
-</li>
-</ol>
-<h1 id="未完后续待学习"><a href="#未完后续待学习" class="headerlink" title="未完后续待学习"></a>未完后续待学习</h1>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/26/Git/" rel="next" title="[Git]">
+                <i class="fa fa-chevron-left"></i> [Git]
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -744,10 +461,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -755,6 +473,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -775,8 +497,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -836,6 +567,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Remove-leading-and-set-to-the-amount-of-RAM-for-the-most-important-data"><span class="nav-number">2.</span> <span class="nav-text">Remove leading # and set to the amount of RAM for the most important data</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#cache-in-MySQL-Start-at-70-of-total-RAM-for-dedicated-server-else-10"><span class="nav-number">3.</span> <span class="nav-text">cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#innodb-buffer-pool-size-128M"><span class="nav-number">4.</span> <span class="nav-text">innodb_buffer_pool_size = 128M</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#-1"><span class="nav-number">5.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Remove-leading-to-turn-on-a-very-important-data-integrity-option-logging"><span class="nav-number">6.</span> <span class="nav-text">Remove leading # to turn on a very important data integrity option: logging</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#changes-to-the-binary-log-between-backups"><span class="nav-number">7.</span> <span class="nav-text">changes to the binary log between backups.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#log-bin"><span class="nav-number">8.</span> <span class="nav-text">log_bin</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#-2"><span class="nav-number">9.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Remove-leading-to-set-options-mainly-useful-for-reporting-servers"><span class="nav-number">10.</span> <span class="nav-text">Remove leading # to set options mainly useful for reporting servers.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#The-server-defaults-are-faster-for-transactions-and-fast-SELECTs"><span class="nav-number">11.</span> <span class="nav-text">The server defaults are faster for transactions and fast SELECTs.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Adjust-sizes-as-needed-experiment-to-find-the-optimal-values"><span class="nav-number">12.</span> <span class="nav-text">Adjust sizes as needed, experiment to find the optimal values.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#join-buffer-size-128M"><span class="nav-number">13.</span> <span class="nav-text">join_buffer_size = 128M</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#sort-buffer-size-2M"><span class="nav-number">14.</span> <span class="nav-text">sort_buffer_size = 2M</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#read-rnd-buffer-size-2M"><span class="nav-number">15.</span> <span class="nav-text">read_rnd_buffer_size = 2M</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Disabling-symbolic-links-is-recommended-to-prevent-assorted-security-risks"><span class="nav-number">16.</span> <span class="nav-text">Disabling symbolic-links is recommended to prevent assorted security risks</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Package-Arch-Version-Repository-Size"><span class="nav-number">17.</span> <span class="nav-text"> Package                            Arch          Version                Repository                Size</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Transaction-Summary"><span class="nav-number">18.</span> <span class="nav-text">Transaction Summary</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#6-6-mysql-community-server-5-7-21-1-el7-x86-64-rpm-164-MB-00-00-23"><span class="nav-number">18.1.</span> <span class="nav-text">(6/6): mysql-community-server-5.7.21-1.el7.x86_64.rpm                            | 164 MB  00:00:23     </span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -976,6 +723,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
