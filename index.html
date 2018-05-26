@@ -272,6 +272,161 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/26/hexo常用命令/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ccommade">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小孩">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/26/hexo常用命令/" itemprop="url">[hexo常用命令]</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-26T17:59:12+08:00">
+                2018-05-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo常用命令/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo常用命令</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>参考文档:<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html</a></p>
+<p>简书参考文档:<a href="https://www.jianshu.com/p/39562a0d8eb6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation" target="_blank" rel="noopener">https://www.jianshu.com/p/39562a0d8eb6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation</a></p>
+<p>博客根目录的 _config.yml 为 “站点配置文件”，包括 SEO、主题、布局、插件等配置项</p>
+<h1 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h1><p>title: xxx的博客<br>subtitle: 副标题<br>description: 对站点的描述<br>keywords: 关键词<br>author: 作者<br>language: 语言（中文简体为：zh-Hans）<br>timezone: 时区（国内这里填写：Asia/Shanghai）</p>
+<p>常用命令：<br>使用npm安装Hexo：<br>npm install hexo-cli -g</p>
+<p>查看Hexo版本：<br>hexo version</p>
+<p>本地文件提交到GitHub</p>
+<p>// 删除旧的public文件<br>hexo clean<br>//生成新的public文件</p>
+<p>hexo generate<br>或者<br>hexo g</p>
+<p>//开始部署<br>hexo deploye<br>或者<br>hexo d</p>
+<p>文章发布：<br>hexo new “文章标题”<br>文章建好了执行以下命令<br>本地预览<br>hexo clean<br>hexo s</p>
+<p>发布到GitHub<br>hexo d -g<br>或者<br>hexo g &amp;&amp; hexo d</p>
+<p>新建一个自定义页面<br>hexo new page folder</p>
+<p>生成分类，标签，关于我，首先在主题配置文件中开启相关内容<br>利用 hexo new page folder 创建相关的文件夹和文件编写相关的内容就可以了</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/26/mysql安装/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -397,7 +552,7 @@
 <h1 id="Package-Arch-Version-Repository-Size"><a href="#Package-Arch-Version-Repository-Size" class="headerlink" title=" Package                            Arch          Version                Repository                Size"></a> Package                            Arch          Version                Repository                Size</h1><p>Installing:<br> mysql-community-libs               x86_64        5.7.21-1.el7           mysql57-community        2.1 M<br>     replacing  mariadb-libs.x86_64 1:5.5.56-2.el7<br> mysql-community-libs-compat        x86_64        5.7.21-1.el7           mysql57-community        2.0 M<br>     replacing  mariadb-libs.x86_64 1:5.5.56-2.el7<br> mysql-community-server             x86_64        5.7.21-1.el7           mysql57-community        164 M<br>Installing for dependencies:<br> libaio                             x86_64        0.3.109-13.el7         base                      24 k<br> mysql-community-client             x86_64        5.7.21-1.el7           mysql57-community         24 M<br> mysql-community-common             x86_64        5.7.21-1.el7           mysql57-community        272 k</p>
 <h1 id="Transaction-Summary"><a href="#Transaction-Summary" class="headerlink" title="Transaction Summary"></a>Transaction Summary</h1><p>Install  3 Packages (+3 Dependent packages)</p>
 <p>Total download size: 192 M<br>Downloading packages:<br>(1/6): libaio-0.3.109-13.el7.x86_64.rpm                                          |  24 kB  00:00:00<br>warning: /var/cache/yum/x86_64/7/mysql57-community/packages/mysql-community-common-5.7.21-1.el7.x86_64.rpm: Header V3 DSA/SHA1 Signature, key ID 5072e1f5: NOKEY<br>Public key for mysql-community-common-5.7.21-1.el7.x86_64.rpm is not installed<br>(2/6): mysql-community-common-5.7.21-1.el7.x86_64.rpm                            | 272 kB  00:00:00<br>(3/6): mysql-community-libs-5.7.21-1.el7.x86_64.rpm                              | 2.1 MB  00:00:00<br>(4/6): mysql-community-libs-compat-5.7.21-1.el7.x86_64.rpm                       | 2.0 MB  00:00:00<br>(5/6): mysql-community-client-5.7.21-1.el7.x86_64.rpm                            |  24 MB  00:00:03     </p>
-<h2 id="6-6-mysql-community-server-5-7-21-1-el7-x86-64-rpm-164-MB-00-00-23"><a href="#6-6-mysql-community-server-5-7-21-1-el7-x86-64-rpm-164-MB-00-00-23" class="headerlink" title="(6/6): mysql-community-server-5.7.21-1.el7.x86_64.rpm                            | 164 MB  00:00:23     "></a>(6/6): mysql-community-server-5.7.21-1.el7.x86_64.rpm                            | 164 MB  00:00:23     </h2><p>Total                                                                   7.8 MB/s | 192 MB  00:00:24<br>Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql<br>Importing GPG key 0x5072E1F5:<br> Userid     : “MySQL Release Engineering <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x6d;&#x79;&#x73;&#113;&#108;&#45;&#98;&#x75;&#x69;&#x6c;&#x64;&#x40;&#111;&#x73;&#x73;&#46;&#111;&#114;&#x61;&#x63;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#x79;&#x73;&#113;&#108;&#45;&#98;&#x75;&#x69;&#x6c;&#x64;&#x40;&#111;&#x73;&#x73;&#46;&#111;&#114;&#x61;&#x63;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;</a>“<br> Fingerprint: a4a9 4068 76fc bd3c 4567 70c8 8c71 8d3b 5072 e1f5<br> Package    : mysql57-community-release-el7-8.noarch (installed)<br> From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-mysql<br>Running transaction check<br>Running transaction test<br>Transaction test succeeded<br>Running transaction<br>Warning: RPMDB altered outside of yum.<br>  Installing : mysql-community-common-5.7.21-1.el7.x86_64                                           1/7<br>  Installing : mysql-community-libs-5.7.21-1.el7.x86_64                                             2/7<br>  Installing : mysql-community-client-5.7.21-1.el7.x86_64                                           3/7<br>  Installing : libaio-0.3.109-13.el7.x86_64                                                         4/7<br>  Installing : mysql-community-server-5.7.21-1.el7.x86_64                                           5/7<br>  Installing : mysql-community-libs-compat-5.7.21-1.el7.x86_64                                      6/7<br>  Erasing    : 1:mariadb-libs-5.5.56-2.el7.x86_64                                                   7/7<br>  Verifying  : mysql-community-client-5.7.21-1.el7.x86_64                                           1/7<br>  Verifying  : mysql-community-libs-compat-5.7.21-1.el7.x86_64                                      2/7<br>  Verifying  : mysql-community-libs-5.7.21-1.el7.x86_64                                             3/7<br>  Verifying  : mysql-community-server-5.7.21-1.el7.x86_64                                           4/7<br>  Verifying  : libaio-0.3.109-13.el7.x86_64                                                         5/7<br>  Verifying  : mysql-community-common-5.7.21-1.el7.x86_64                                           6/7<br>  Verifying  : 1:mariadb-libs-5.5.56-2.el7.x86_64                                                   7/7 </p>
+<h2 id="6-6-mysql-community-server-5-7-21-1-el7-x86-64-rpm-164-MB-00-00-23"><a href="#6-6-mysql-community-server-5-7-21-1-el7-x86-64-rpm-164-MB-00-00-23" class="headerlink" title="(6/6): mysql-community-server-5.7.21-1.el7.x86_64.rpm                            | 164 MB  00:00:23     "></a>(6/6): mysql-community-server-5.7.21-1.el7.x86_64.rpm                            | 164 MB  00:00:23     </h2><p>Total                                                                   7.8 MB/s | 192 MB  00:00:24<br>Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql<br>Importing GPG key 0x5072E1F5:<br> Userid     : “MySQL Release Engineering <a href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#x6d;&#121;&#x73;&#113;&#108;&#x2d;&#x62;&#x75;&#105;&#108;&#x64;&#64;&#111;&#x73;&#115;&#x2e;&#111;&#114;&#x61;&#x63;&#108;&#101;&#46;&#99;&#x6f;&#x6d;">&#x6d;&#121;&#x73;&#113;&#108;&#x2d;&#x62;&#x75;&#105;&#108;&#x64;&#64;&#111;&#x73;&#115;&#x2e;&#111;&#114;&#x61;&#x63;&#108;&#101;&#46;&#99;&#x6f;&#x6d;</a>“<br> Fingerprint: a4a9 4068 76fc bd3c 4567 70c8 8c71 8d3b 5072 e1f5<br> Package    : mysql57-community-release-el7-8.noarch (installed)<br> From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-mysql<br>Running transaction check<br>Running transaction test<br>Transaction test succeeded<br>Running transaction<br>Warning: RPMDB altered outside of yum.<br>  Installing : mysql-community-common-5.7.21-1.el7.x86_64                                           1/7<br>  Installing : mysql-community-libs-5.7.21-1.el7.x86_64                                             2/7<br>  Installing : mysql-community-client-5.7.21-1.el7.x86_64                                           3/7<br>  Installing : libaio-0.3.109-13.el7.x86_64                                                         4/7<br>  Installing : mysql-community-server-5.7.21-1.el7.x86_64                                           5/7<br>  Installing : mysql-community-libs-compat-5.7.21-1.el7.x86_64                                      6/7<br>  Erasing    : 1:mariadb-libs-5.5.56-2.el7.x86_64                                                   7/7<br>  Verifying  : mysql-community-client-5.7.21-1.el7.x86_64                                           1/7<br>  Verifying  : mysql-community-libs-compat-5.7.21-1.el7.x86_64                                      2/7<br>  Verifying  : mysql-community-libs-5.7.21-1.el7.x86_64                                             3/7<br>  Verifying  : mysql-community-server-5.7.21-1.el7.x86_64                                           4/7<br>  Verifying  : libaio-0.3.109-13.el7.x86_64                                                         5/7<br>  Verifying  : mysql-community-common-5.7.21-1.el7.x86_64                                           6/7<br>  Verifying  : 1:mariadb-libs-5.5.56-2.el7.x86_64                                                   7/7 </p>
 <p>Installed:<br>  mysql-community-libs.x86_64 0:5.7.21-1.el7       mysql-community-libs-compat.x86_64 0:5.7.21-1.el7<br>  mysql-community-server.x86_64 0:5.7.21-1.el7    </p>
 <p>Dependency Installed:<br>  libaio.x86_64 0:0.3.109-13.el7                     mysql-community-client.x86_64 0:5.7.21-1.el7<br>  mysql-community-common.x86_64 0:5.7.21-1.el7      </p>
 <p>Replaced:<br>  mariadb-libs.x86_64 1:5.5.56-2.el7                                                                    </p>
@@ -791,7 +946,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -802,7 +957,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
